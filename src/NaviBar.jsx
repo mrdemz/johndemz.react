@@ -46,11 +46,11 @@ function NaviBar() {
   <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
       <Route index element={<Home />} />
-      <Route path="Home" element={<Home />}></Route>
-        <Route path="About" element={<About />}> </Route>
-        <Route path="Skills" element={<Skills />}> </Route>
-        <Route path="Contact" element={<Contact />}> </Route>
-        <Route path="Projects" element={<Project />}> </Route>
+      <Route exact path="Home" component={<Home />}></Route>
+        <Route exact path="About" component={<About />}> </Route>
+        <Route exact path="Skills" component={<Skills />}> </Route>
+        <Route exact path="Contact" component={<Contact />}> </Route>
+        <Route exact path="Projects" component={<Project />}> </Route>
       </Routes>
     </BrowserRouter>
   </>
