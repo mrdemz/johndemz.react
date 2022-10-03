@@ -29,15 +29,15 @@ function NaviBar() {
         <div className="wrapper">
           <ul>
             <li><b className="bi bi-house">
-            <Nav.Link  href=""><i >Home</i></Nav.Link></b></li>
+            <Nav.Link  to="/home"><i >Home</i></Nav.Link></b></li>
             <li><b  className="bi bi-person">
-              <Nav.Link href="/about"><i >About</i></Nav.Link></b></li>
+              <Nav.Link to="/about"><i >About</i></Nav.Link></b></li>
               <li><b  className="bi bi-gear">
-              <Nav.Link href="Skills" ><i >Skills</i></Nav.Link></b></li>
+              <Nav.Link to="/skills" ><i >Skills</i></Nav.Link></b></li>
               <li><b  className="bi bi-envelope">
-              <Nav.Link href="Contact" ><i >Contact</i></Nav.Link></b></li>
+              <Nav.Link to="/contact" ><i >Contact</i></Nav.Link></b></li>
               <li><b  className="bi bi-kanban">
-              <Nav.Link href="Projects"  ><i >Projects</i></Nav.Link></b></li>
+              <Nav.Link to="/projects"  ><i >Projects</i></Nav.Link></b></li>
           </ul>
         </div>
       </Nav>
@@ -46,9 +46,9 @@ function NaviBar() {
   <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
       <Route index element={<Home />} />
-       <Route exact path="Home" component={<Home />}></Route>
-       <Route path="/about" element={<About/>}> </Route>
-        <Route  path="Skills" element={Skills}> </Route>
+       <Route exact path="/home" component={Home}></Route>
+       <Route path="/about" element={About}> </Route>
+        <Route  exact path="/skills" element={Skills}> </Route>
         <Route  exact path="Contact" component={Contact}> </Route>
         <Route exact path="Projects" element={Project}> </Route>
       </Routes>
