@@ -29,7 +29,7 @@ function NaviBar() {
         <div className="wrapper">
           <ul>
             <li><b className="bi bi-house">
-            <Nav.Link  href="https://mrdemz.github.io/johndemz.react/Home"><i >Home</i></Nav.Link></b></li>
+            <Nav.Link  href=""><i >Home</i></Nav.Link></b></li>
             <li><b  className="bi bi-person">
               <Nav.Link href="About"><i >About</i></Nav.Link></b></li>
               <li><b  className="bi bi-gear">
@@ -43,10 +43,10 @@ function NaviBar() {
       </Nav>
     </Container>
   </Navbar>
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
       <Route index element={<Home />} />
-      <Route path="https://mrdemz.github.io/johndemz.react/Home" element={<Home />}></Route>
+      <Route path="Home" element={<Home />}></Route>
         <Route path="About" element={<About />}> </Route>
         <Route path="Skills" element={<Skills />}> </Route>
         <Route path="Contact" element={<Contact />}> </Route>
