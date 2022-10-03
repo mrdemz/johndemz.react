@@ -31,7 +31,7 @@ function NaviBar() {
             <li><b className="bi bi-house">
             <Nav.Link  href=""><i >Home</i></Nav.Link></b></li>
             <li><b  className="bi bi-person">
-              <Nav.Link href="about"><i >About</i></Nav.Link></b></li>
+              <Nav.Link href="/about"><i >About</i></Nav.Link></b></li>
               <li><b  className="bi bi-gear">
               <Nav.Link href="Skills" ><i >Skills</i></Nav.Link></b></li>
               <li><b  className="bi bi-envelope">
