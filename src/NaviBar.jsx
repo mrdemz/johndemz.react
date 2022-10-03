@@ -46,7 +46,7 @@ function NaviBar() {
   <BrowserRouter>
       <Routes>
       <Route index element={<Home />} />
-      <Route path="Home" element={<Home />}></Route>
+      <Route path="https://mrdemz.github.io/johndemz.react/Home" element={<Home />}></Route>
         <Route path="About" element={<About />}> </Route>
         <Route path="Skills" element={<Skills />}> </Route>
         <Route path="Contact" element={<Contact />}> </Route>
