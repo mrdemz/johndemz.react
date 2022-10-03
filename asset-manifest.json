@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.90f90f93.css",
-    "main.js": "/static/js/main.b48a98f5.js",
+    "main.js": "/static/js/main.9c20e69f.js",
     "static/media/bg.png": "/static/media/bg.4e86b4e4dd0c31f24b7f.png",
     "static/media/bg_img.png": "/static/media/bg_img.843a082c5ebdc1fc10c2.png",
     "static/media/timeline.png": "/static/media/timeline.7c02acdf1d5c65af5afd.png",
@@ -20,10 +20,10 @@
     "static/media/demzlogo.png": "/static/media/demzlogo.b248e194599533c7f828.png",
     "index.html": "/index.html",
     "main.90f90f93.css.map": "/static/css/main.90f90f93.css.map",
-    "main.b48a98f5.js.map": "/static/js/main.b48a98f5.js.map"
+    "main.9c20e69f.js.map": "/static/js/main.9c20e69f.js.map"
   },
   "entrypoints": [
     "static/css/main.90f90f93.css",
-    "static/js/main.b48a98f5.js"
+    "static/js/main.9c20e69f.js"
   ]
 }
