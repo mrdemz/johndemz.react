@@ -1,5 +1,7 @@
-import {StrictMode} from 'react';
+
 import {createRoot} from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
+import { HashRouter } from 'react-router-dom'
 
 import App from './App';
 import "./index.css"
@@ -12,9 +14,12 @@ const root = createRoot(rootElement);
 // 👇️ if you use TypeScript, add non-null (!) assertion operator
 // const root = createRoot(rootElement!);
 
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-);
 
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </React.StrictMode>
+);
