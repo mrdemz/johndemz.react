@@ -29,7 +29,7 @@ function NaviBar() {
         <div className="wrapper">
           <ul>
             <li><b className="bi bi-house">
-            <Nav.Link  href="Home"><i >Home</i></Nav.Link></b></li>
+            <Nav.Link  href="https://mrdemz.github.io/johndemz.react/Home"><i >Home</i></Nav.Link></b></li>
             <li><b  className="bi bi-person">
               <Nav.Link href="About"><i >About</i></Nav.Link></b></li>
               <li><b  className="bi bi-gear">
