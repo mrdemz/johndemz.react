@@ -47,7 +47,7 @@ function NaviBar() {
       <Routes>
       <Route index element={<Home />} />
        <Route exact path="Home" component={<Home />}></Route>
-       about: <Route exact path="/about" component={About}> </Route>
+       <Route exact path="/about" element={<About/>}> </Route>
         <Route exact path="Skills" element={<Skills />}> </Route>
         <Route exact path="Contact" component={<Contact />}> </Route>
         <Route exact path="Projects" component={<Project />}> </Route>
