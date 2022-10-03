@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route,Switch, Router} from "react-router-dom";
 
 
 import "./navibar.css"
@@ -20,8 +20,8 @@ function NaviBar() {
 
 
   return (
+    <Router>
     <>
-    
     <Navbar sticky="top" bg="dark" variant="dark">
     <Container>
       <Navbar.Brand href="#home"><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
@@ -45,15 +45,18 @@ function NaviBar() {
   </Navbar>
   <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
+        <Switch>
       <Route index element={<Home />} />
        <Route exact path="/home" component={Home}></Route>
        <Route path="/about" element={About}> </Route>
         <Route  exact path="/skills" element={Skills}> </Route>
         <Route  exact path="Contact" component={Contact}> </Route>
         <Route exact path="Projects" element={Project}> </Route>
+        </Switch>
       </Routes>
     </BrowserRouter>
   </>
+  </Router>
   );
 }
 
