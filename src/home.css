@@ -1,3 +1,7 @@
+
+
+
+
 h1 {
     font-size:4.5em;
     display:inline;
@@ -16,24 +20,26 @@ position:relative;
 height: 100vh;
 
 
+
+
 }
 
 #cont-1{
-position:absolute;
-left: 300px;
-top: 300px;
+position:relative;
+right: 30%;
+top: 20%;
 max-width: 550px;
 user-select: none;
 
 }
 #cont-2{
-    position: absolute;
+    position:relative;
     max-width: 180px;
     border-radius: 150px;
     display: flex;
     overflow: hidden;
-    left:700px;
-    top:550px;
+    right:17%;
+    top:20%;
 
 }
 
@@ -197,22 +203,22 @@ user-select: none;
   
   
   #intr14{
-
-    position:relative;
-    width:800px;
-    height:705px;
+    
+    
+    width:600px;
+    height:505px;
 
   }
 
 
   #cont-4{
     position:absolute;
-    max-width:800px;
+    max-width:500px;
     
-    left:1200px;
+    right:600px;
     top:200px;
     border-radius: 150px;
-    display:flex;
+   
     overflow: hidden;
     opacity:10%;
 

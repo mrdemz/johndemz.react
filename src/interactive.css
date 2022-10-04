@@ -64,39 +64,43 @@ color:white;
   
   }
   #container-cont{
-    position: relative;
-    left:200px;
-    top:800px;
+    background-color: black;
+    position: fixed;
     border-radius:30px;
     border-color:white;
     border-style: solid;
     width:360px;
-    height:275px;
+    height:200px;
+    bottom:20%;
+    right:75%
     
   }
 #intCont-1{
+
   position:relative;
   left:85px;
   max-width:250px;
   height:200px;
   max-height:200px;
   user-select: none;
+ 
 
 }
 #intCont-2{
-  position:relative;
-  left:600px;
+  background-color: black;
+  position:fixed;
   border-style: solid;
   border-color: white;
   border-radius:30px;
-  height:275px;
+  height:100px;
   width:360px;
-  top:525px;
+  right:75%;
+ bottom:10%;
 
 }
 
 #prog{
-  height:100px;
+  height:50px;
   margin: 10px;
 }
 
@@ -104,11 +108,6 @@ color:white;
 
 
 
-#ctrl{
-  position:relative;
-  right:20%;
-
-}
 #left-btn{
 color:lightblue;
 background-color: dimgray;

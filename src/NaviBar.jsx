@@ -21,9 +21,9 @@ function NaviBar() {
 
   return (
    
-    <>
+   
     <BrowserRouter >
-    <Navbar className="naviBar"  sticky="top" bg="dark" variant="dark">
+    <Navbar   sticky="top" bg="dark" variant="dark">
     <Container>
       <Navbar.Brand ><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
       <Nav className="me-auto">
@@ -53,7 +53,7 @@ function NaviBar() {
         <Route  path="projects" element={<Project/>}> </Route>
       </Routes>
     </BrowserRouter>
-  </>
+
   );
 }
 
