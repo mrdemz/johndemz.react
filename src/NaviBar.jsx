@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { BrowserRouter, Routes, Route,Link} from "react-router-dom";
+import { HashRouter, Routes, Route,Link} from "react-router-dom";
 
 
 import "./navibar.css"
@@ -22,7 +22,7 @@ function NaviBar() {
   return (
    
    
-    <BrowserRouter >
+    <HashRouter >
     <Navbar   sticky="top" bg="dark" variant="dark">
     <Container>
       <Navbar.Brand ><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
@@ -53,7 +53,7 @@ function NaviBar() {
         <Route   path="contact" element={<Contact/>}> </Route>
         <Route  path="projects" element={<Project/>}> </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }
