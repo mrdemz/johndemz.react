@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { BrowserRouter, Routes, Route,Switch, Router} from "react-router-dom";
+import { BrowserRouter, Routes, Route,Link} from "react-router-dom";
 
 
 import "./navibar.css"
@@ -20,43 +20,40 @@ function NaviBar() {
 
 
   return (
-    <Router>
+   
     <>
+    <BrowserRouter >
     <Navbar sticky="top" bg="dark" variant="dark">
     <Container>
-      <Navbar.Brand href="#home"><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
+      <Navbar.Brand ><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
       <Nav className="me-auto">
         <div className="wrapper">
           <ul>
             <li><b className="bi bi-house">
-            <Nav.Link  to="/home"><i >Home</i></Nav.Link></b></li>
+            <Link className="a" to="/"><i >Home</i></Link></b></li>
             <li><b  className="bi bi-person">
-              <Nav.Link to="/about"><i >About</i></Nav.Link></b></li>
+              <Link className="a" to="about"><i >About</i></Link></b></li>
               <li><b  className="bi bi-gear">
-              <Nav.Link to="/skills" ><i >Skills</i></Nav.Link></b></li>
+              <Link className="a" to="skills" ><i >Skills</i></Link></b></li>
               <li><b  className="bi bi-envelope">
-              <Nav.Link to="/contact" ><i >Contact</i></Nav.Link></b></li>
+              <Link className="a" to="contact" ><i >Contact</i></Link></b></li>
               <li><b  className="bi bi-kanban">
-              <Nav.Link to="/projects"  ><i >Projects</i></Nav.Link></b></li>
+              <Link className="a" to="projects"  ><i >Projects</i></Link></b></li>
           </ul>
         </div>
       </Nav>
     </Container>
   </Navbar>
-  <BrowserRouter basename={window.location.pathname || ''}>
-      <Routes>
-        <Switch>
-      <Route index element={<Home />} />
-       <Route exact path="/home" component={Home}></Route>
-       <Route path="/about" element={About}> </Route>
-        <Route  exact path="/skills" element={Skills}> </Route>
-        <Route  exact path="Contact" component={Contact}> </Route>
-        <Route exact path="Projects" element={Project}> </Route>
-        </Switch>
+  
+      <Routes>    
+       <Route path="/" element={<Home/>}></Route>
+       <Route path="about" element={<About/>}> </Route>
+        <Route   path="skills" element={<Skills/>}> </Route>
+        <Route   path="contact" element={<Contact/>}> </Route>
+        <Route  path="projects" element={<Project/>}> </Route>
       </Routes>
     </BrowserRouter>
   </>
-  </Router>
   );
 }
 

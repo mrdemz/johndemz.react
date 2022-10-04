@@ -5,7 +5,13 @@ import "./home.css"
 import Interactive from "./Interactive"
 import bg_img from "./images/bg_img.png"
 
-export default function Home() {
+export default function Home()  {
+
+
+
+
+
+
 
 let [isTriggered, setTriggered] = useState(false)
 let [tourText, setText] = useState("Explore")
@@ -40,7 +46,7 @@ function handleText()	{
   return (
     <>
    
-<div className='fluid-container'  id ="main-cont">
+<div className='container-fluid'  id ="main-cont">
   
 <script   src = "/assets/sidebar.js"></script>
 	<div className='container' id="cont-1" >
