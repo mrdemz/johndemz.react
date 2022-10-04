@@ -23,7 +23,7 @@ function NaviBar() {
    
    
     <HashRouter >
-    <Navbar   sticky="top" bg="dark" variant="dark">
+    <Navbar style={{display:"flex", width:"100%"}}   sticky="top" bg="dark" variant="dark">
     <Container>
       <Navbar.Brand ><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
       <Nav className="me-auto">

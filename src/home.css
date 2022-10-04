@@ -3,14 +3,14 @@
 
 
 h1 {
-    font-size:4.5em;
+    font-size:3.5rem;
     display:inline;
     color: #9CD0FF;
     }
     
     
     h2 {
-    font-size: 2.5em;
+    font-size: 1.5rem;
     display: inline;
     user-select: none;
     }
@@ -25,10 +25,10 @@ height: 100vh;
 }
 
 #cont-1{
-position:relative;
-right: 30%;
-top: 20%;
-max-width: 550px;
+position:absolute;
+left: 27%;
+top: 40%;
+max-width: 50%px;
 user-select: none;
 
 }
@@ -38,8 +38,8 @@ user-select: none;
     border-radius: 150px;
     display: flex;
     overflow: hidden;
-    right:17%;
-    top:20%;
+    right:20%;
+    top:65%;
 
 }
 
@@ -168,11 +168,11 @@ user-select: none;
     text-decoration: none;
     color:floralwhite; 
     border-style: groove; 
-    border-radius:  25px; 
+    border-radius:  5%; 
     border-color:dimgray;
-    padding-left: 15px ; 
-    padding-right: 15px; 
-    font-size: 1.5em; 
+    padding-left: 15% ; 
+    padding-right: 16%; 
+    font-size: 1.3em; 
     transition: 0.5s;
     overflow:hidden;
   }
@@ -204,7 +204,7 @@ user-select: none;
   
   #intr14{
     
-    
+    max-inline-size: 100%;
     width:600px;
     height:505px;
 
@@ -215,9 +215,9 @@ user-select: none;
     position:absolute;
     max-width:500px;
     
-    right:600px;
-    top:200px;
-    border-radius: 150px;
+    right:43%;
+    top:0%;
+    border-radius: 50%;
    
     overflow: hidden;
     opacity:10%;

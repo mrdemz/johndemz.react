@@ -779,15 +779,15 @@ return(
 		setModalShow(false)
 		setStatus(true)	
 	}}/>
-	<div style={{position:"absolute",height: "auto", top:"0", left:"35%", height:"700px"}}>
+	<div style={{position:"absolute",height: "auto", top:"0", left:"25%", height:"700px"}}>
 
 
 	
-	<canvas id="canv" className="canvas-container" style= {{position: "fixed",  border:"solid", borderColor:"grey", borderRadius:"20px", top:"15%"}} ref={canvasRef}></canvas>
+	<canvas id="canv" className="canvas-container" style= {{position: "fixed",  border:"solid", borderColor:"grey", borderRadius:"20px", top:"15%",height:"50%", width:"50%"}} ref={canvasRef}></canvas>
 	
 	<div id="container-cont">
 		<div id = "intCont-1">
-			<p style={{paddingLeft:"35px"}}>CONTROLS</p>
+			<p style={{paddingLeft:"30%"}}>CONTROLS</p>
 			<button id = "left-btn"onMouseUp={()=>setDir('left_down')} onMouseDown={()=>setDir('left_up')}>A</button>
 			<button id = "up-btn"onMouseUp={()=>setDir('left_down')} onMouseDown={()=>setDir('left_up')}>W</button>
 			<button id = "right-btn"onMouseUp={()=>setDir('left_down')} onMouseDown={()=>setDir('left_up')}>D</button>
@@ -800,7 +800,7 @@ return(
 </div>
 	
 		<div id="intCont-2">
-		<p style={{paddingLeft:"150px"}}>HEALTH</p>
+		<p style={{paddingLeft:"40%"}}>HEALTH</p>
 			{life>=50?<ProgressBar variant="info" id="prog" animated now = {life}/>:life < 50 && life >=20?
 			 <ProgressBar variant="warning" id="prog" animated now = {life}/>: 
 			 <ProgressBar variant="danger" id="prog" animated now = {life}/> }
