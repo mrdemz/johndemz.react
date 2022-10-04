@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/johndemzreact/static/css/main.09715e68.css",
-    "main.js": "/johndemzreact/static/js/main.26d87046.js",
-    "static/media/bg.png": "/johndemzreact/static/media/bg.4e86b4e4dd0c31f24b7f.png",
-    "static/media/bg_img.png": "/johndemzreact/static/media/bg_img.843a082c5ebdc1fc10c2.png",
-    "static/media/timeline.png": "/johndemzreact/static/media/timeline.7c02acdf1d5c65af5afd.png",
-    "static/media/building_asset1.png": "/johndemzreact/static/media/building_asset1.897c6e31b288319be64f.png",
-    "static/media/building_asset4.png": "/johndemzreact/static/media/building_asset4.9e97c5af4c6f64ed4b08.png",
-    "static/media/building_asset3.png": "/johndemzreact/static/media/building_asset3.d5dfe1cb8056d404d616.png",
-    "static/media/bootstrap-icons.woff?": "/johndemzreact/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
-    "static/media/bootstrap-icons.woff2?": "/johndemzreact/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
-    "static/media/platform.png": "/johndemzreact/static/media/platform.dba077c4f9c36f84c494.png",
-    "static/media/human_run_left.png": "/johndemzreact/static/media/human_run_left.86db2c4bfb7e3fe3e491.png",
-    "static/media/human_run_right.png": "/johndemzreact/static/media/human_run_right.9d3257f404977748a7bd.png",
-    "static/media/ring.png": "/johndemzreact/static/media/ring.f14d6b2927a53d89ff36.png",
-    "static/media/human_right.png": "/johndemzreact/static/media/human_right.0e2d516ca1959e91bffb.png",
-    "static/media/timeline_core.png": "/johndemzreact/static/media/timeline_core.b3901eb09b3f52cfc676.png",
-    "static/media/human_left.png": "/johndemzreact/static/media/human_left.78b725504539a3627639.png",
-    "static/media/demzlogo.png": "/johndemzreact/static/media/demzlogo.b248e194599533c7f828.png",
-    "index.html": "/johndemzreact/index.html",
-    "main.09715e68.css.map": "/johndemzreact/static/css/main.09715e68.css.map",
-    "main.26d87046.js.map": "/johndemzreact/static/js/main.26d87046.js.map"
+    "main.css": "/static/css/main.ef60417e.css",
+    "main.js": "/static/js/main.97c01762.js",
+    "static/media/bg.png": "/static/media/bg.4e86b4e4dd0c31f24b7f.png",
+    "static/media/bg_img.png": "/static/media/bg_img.843a082c5ebdc1fc10c2.png",
+    "static/media/timeline.png": "/static/media/timeline.7c02acdf1d5c65af5afd.png",
+    "static/media/building_asset1.png": "/static/media/building_asset1.897c6e31b288319be64f.png",
+    "static/media/building_asset4.png": "/static/media/building_asset4.9e97c5af4c6f64ed4b08.png",
+    "static/media/building_asset3.png": "/static/media/building_asset3.d5dfe1cb8056d404d616.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/platform.png": "/static/media/platform.dba077c4f9c36f84c494.png",
+    "static/media/human_run_left.png": "/static/media/human_run_left.86db2c4bfb7e3fe3e491.png",
+    "static/media/human_run_right.png": "/static/media/human_run_right.9d3257f404977748a7bd.png",
+    "static/media/ring.png": "/static/media/ring.f14d6b2927a53d89ff36.png",
+    "static/media/human_right.png": "/static/media/human_right.0e2d516ca1959e91bffb.png",
+    "static/media/timeline_core.png": "/static/media/timeline_core.b3901eb09b3f52cfc676.png",
+    "static/media/human_left.png": "/static/media/human_left.78b725504539a3627639.png",
+    "static/media/demzlogo.png": "/static/media/demzlogo.b248e194599533c7f828.png",
+    "index.html": "/index.html",
+    "main.ef60417e.css.map": "/static/css/main.ef60417e.css.map",
+    "main.97c01762.js.map": "/static/js/main.97c01762.js.map"
   },
   "entrypoints": [
-    "static/css/main.09715e68.css",
-    "static/js/main.26d87046.js"
+    "static/css/main.ef60417e.css",
+    "static/js/main.97c01762.js"
   ]
 }
