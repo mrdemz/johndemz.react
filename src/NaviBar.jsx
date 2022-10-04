@@ -23,7 +23,7 @@ function NaviBar() {
    
     <>
     <BrowserRouter >
-    <Navbar sticky="top" bg="dark" variant="dark">
+    <Navbar className="naviBar"  sticky="top" bg="dark" variant="dark">
     <Container>
       <Navbar.Brand ><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
       <Nav className="me-auto">
