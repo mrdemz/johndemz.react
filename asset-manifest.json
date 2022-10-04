@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/johndemzreact/static/css/main.089946d4.css",
-    "main.js": "/johndemzreact/static/js/main.862864ca.js",
+    "main.css": "/johndemzreact/static/css/main.4f010848.css",
+    "main.js": "/johndemzreact/static/js/main.f5d11ff6.js",
     "static/media/bg.png": "/johndemzreact/static/media/bg.4e86b4e4dd0c31f24b7f.png",
     "static/media/bg_img.png": "/johndemzreact/static/media/bg_img.843a082c5ebdc1fc10c2.png",
     "static/media/timeline.png": "/johndemzreact/static/media/timeline.7c02acdf1d5c65af5afd.png",
@@ -19,11 +19,11 @@
     "static/media/human_left.png": "/johndemzreact/static/media/human_left.78b725504539a3627639.png",
     "static/media/demzlogo.png": "/johndemzreact/static/media/demzlogo.b248e194599533c7f828.png",
     "index.html": "/johndemzreact/index.html",
-    "main.089946d4.css.map": "/johndemzreact/static/css/main.089946d4.css.map",
-    "main.862864ca.js.map": "/johndemzreact/static/js/main.862864ca.js.map"
+    "main.4f010848.css.map": "/johndemzreact/static/css/main.4f010848.css.map",
+    "main.f5d11ff6.js.map": "/johndemzreact/static/js/main.f5d11ff6.js.map"
   },
   "entrypoints": [
-    "static/css/main.089946d4.css",
-    "static/js/main.862864ca.js"
+    "static/css/main.4f010848.css",
+    "static/js/main.f5d11ff6.js"
   ]
 }
