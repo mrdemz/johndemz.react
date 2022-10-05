@@ -21,6 +21,11 @@
     align-items: center;
 
 }
+@media(min-width:600px){
+  #cont-1{
+    left:5%;
+  }
+}
 
     #cont-1{
     position:relative;
@@ -29,6 +34,11 @@
     left: 23%;
     top: 40%;
 
+}
+@media(min-width:600px){
+  #cont-2{
+    left:5%;
+  }
 }
     #cont-2{
     position:relative;
@@ -39,19 +49,25 @@
     top:55%;
 
 }
-
+@media(min-width:600px){
+  #cont-4{
+    left:5%;
+  }
+}
   #cont-4{
     position:relative;
     max-width:100%;
-    min-width: 500px;
+    min-width: 250px;
     min-height: 450px;
     border-radius: 50%;
     overflow: hidden;
     opacity:10%;
     left:45%;
     top:40%;
+   overflow: hidden;
 
   }
+
 
 
   #intr1 {
@@ -293,7 +309,6 @@
     0% {opacity:0;}
     10% {opacity:1;}
   }
-  
   
   
   

@@ -23,9 +23,9 @@ function NaviBar() {
    
    
     <HashRouter >
-    <Navbar style={{display:"flex"}}   sticky="top" bg="dark" variant="dark">
+    <Navbar style={{display:"flex", left:"0", right:"0"}}   sticky="top" bg="dark" variant="dark">
     <Container>
-      <Navbar.Brand ><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
+      <Navbar.Brand style={{display:"block"}}><img id="nav-logo" src={demzlogo} alt="John Demz"/></Navbar.Brand>
       <Nav className="me-auto">
         <div className="wrapper">
           <ul>
