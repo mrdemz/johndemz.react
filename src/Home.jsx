@@ -47,43 +47,42 @@ function handleText()	{
     <>
    
 <div className='container-fluid'  id ="main-cont">
-  
-<script   src = "/assets/sidebar.js"></script>
-	<div className='container' id="cont-1" >
-
-		<h1 id = "intr1">H</h1>
-		<h1 id = "intr2">i,<br/></h1>
-		<h1 id = "intr3"></h1>
-		<h1 id = "intr4">I</h1>
-		<h1 id = "intr5">'</h1>
-		<h1 id = "intr6">m </h1>
-		<h1 id = "intr7"> </h1>
-		<h1 id = "intr8">J</h1>
-		<h1 id = "intr9">o</h1>
-		<h1 id = "intr10">h</h1>
-		<h1 id = "intr11">n </h1>
-		<h1 id = "intr8"> </h1>
-		<h1 id = "intr9"> D</h1>
-		<h1 id = "intr10">e</h1>
-		<h1 id = "intr11">m</h1>
-		<h1 id = "intr11">z</h1>
-
-		<p id = "intr12" style = {{ color: "dimgray"}}>Computer Scientist | Web Developer | Aeronautical Engineer</p>
 	
-	</div>
-	<div className='container' id="cont-2" ><button type='button'  href="" id ="intr13" onClick={()=>{handlTourButton()}}  >{tourText}</button>
+	<div style={{ maxWidth:"50%",}}>
+								
+			{
+			isTriggered?<Interactive/>:
+			<div>
+			<div id="cont-4"><img  id = "intr14" src={bg_img}></img>
+			</div>		<div className='container' id="cont-1" >
+			<h1 id = "intr1">H</h1>
+			<h1 id = "intr2">i,<br/></h1>
+			<h1 id = "intr3"></h1>
+			<h1 id = "intr4">I</h1>
+			<h1 id = "intr5">'</h1>
+			<h1 id = "intr6">m </h1>
+			<h1 id = "intr7"> </h1>
+			<h1 id = "intr8">J</h1>
+			<h1 id = "intr9">o</h1>
+			<h1 id = "intr10">h</h1>
+			<h1 id = "intr11">n </h1>
+			<h1 id = "intr8"> </h1>
+			<h1 id = "intr9"> D</h1>
+			<h1 id = "intr10">e</h1>
+			<h1 id = "intr11">m</h1>
+			<h1 id = "intr11">z</h1>
+			<p id = "intr12" style = {{ color: "dimgray"}}>Computer Scientist | Web Developer | Aeronautical Engineer</p>
+			</div>
+			</div>
+			}
+			
+	
+			<div className='container' id="cont-2" ><button type='button'  href="" id ="intr13" onClick={()=>{handlTourButton()}}  >{tourText}</button>
+			</div>
+	
+
 	</div>
 
-	<div className='container' id="cont-3">
-
-		
-		
-				
-					{isTriggered?<Interactive/>:<div id="cont-4"><img  id = "intr14" src={bg_img}></img></div>}
-
-				
-				
-	</div>
 
 </div >
 

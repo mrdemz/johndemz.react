@@ -2,7 +2,7 @@
 
 
 
-h1 {
+    h1 {
     font-size:3.5rem;
     display:inline;
     color: #9CD0FF;
@@ -15,35 +15,46 @@ h1 {
     user-select: none;
     }
 
-#main-cont{
-position:relative;
-height: 100vh;
-
-
-
-
-}
-
-#cont-1{
-position:absolute;
-left: 27%;
-top: 40%;
-max-width: 50%px;
-user-select: none;
-
-}
-#cont-2{
+    #main-cont{
     position:relative;
-    max-width: 180px;
-    border-radius: 150px;
+    height: 100vh;
+    align-items: center;
+
+}
+
+    #cont-1{
+    position:relative;
+    max-width: 50%;
+    user-select: none;
+    left: 23%;
+    top: 40%;
+
+}
+    #cont-2{
+    position:relative;
+    max-width: 60%;
     display: flex;
     overflow: hidden;
-    right:20%;
-    top:65%;
+    left:27%;
+    top:55%;
 
 }
 
-#intr1 {
+  #cont-4{
+    position:relative;
+    max-width:100%;
+    min-width: 500px;
+    min-height: 450px;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity:10%;
+    left:45%;
+    top:40%;
+
+  }
+
+
+  #intr1 {
  
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
@@ -203,29 +214,13 @@ user-select: none;
   
   
   #intr14{
-    
-    max-inline-size: 100%;
-    width:600px;
-    height:505px;
+    width: 500px;
+   height:450px;
 
   }
 
 
-  #cont-4{
-    position:absolute;
-    max-width:500px;
-    
-    right:43%;
-    top:0%;
-    border-radius: 50%;
-   
-    overflow: hidden;
-    opacity:10%;
 
-
-
-  }
-  
   
   
   

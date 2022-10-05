@@ -779,32 +779,46 @@ return(
 		setModalShow(false)
 		setStatus(true)	
 	}}/>
-	<div style={{position:"absolute",height: "auto", top:"0", left:"25%", height:"700px"}}>
+	<div >
 
 
 	
-	<canvas id="canv" className="canvas-container" style= {{position: "fixed",  border:"solid", borderColor:"grey", borderRadius:"20px", top:"15%",height:"50%", width:"50%"}} ref={canvasRef}></canvas>
+	<canvas id="canv" className="canvas-container" 
+	style= {{position: "relative",  border:"solid", borderColor:"grey", borderRadius:"20px", 
+	left:"30%", marginTop:"10%", height:"500px", width:"1024px"}} ref={canvasRef}></canvas>
 	
+	<div id="intCont-2">
+		<p style={{paddingLeft:"40%"}}>HEALTH</p>
+			{life>=50?<ProgressBar variant="info" id="prog" 
+			animated now = {life}/>:life < 50 && life >=20?
+			 <ProgressBar variant="warning" id="prog" 
+			 animated now = {life}/>: 
+			 <ProgressBar variant="danger" id="prog" 
+			 animated now = {life}/> }
+		</div>
+
+
+
+
 	<div id="container-cont">
 		<div id = "intCont-1">
 			<p style={{paddingLeft:"30%"}}>CONTROLS</p>
-			<button id = "left-btn"onMouseUp={()=>setDir('left_down')} onMouseDown={()=>setDir('left_up')}>A</button>
-			<button id = "up-btn"onMouseUp={()=>setDir('left_down')} onMouseDown={()=>setDir('left_up')}>W</button>
-			<button id = "right-btn"onMouseUp={()=>setDir('left_down')} onMouseDown={()=>setDir('left_up')}>D</button>
-			<p id="left-label">Walk Left</p>
+			<button id = "up-btn"onMouseUp={()=>setDir('left_down')} 
+			onMouseDown={()=>setDir('left_up')}>W</button>
 			<p id="up-label">Jump</p>
-			<p id="right-label">Walk Right</p>
+			<button id = "left-btn"onMouseUp={()=>setDir('left_down')} 
+			onMouseDown={()=>setDir('left_up')}>A</button>
+			<button id = "right-btn"onMouseUp={()=>setDir('left_down')} 
+			onMouseDown={()=>setDir('left_up')}>D</button>
+			<p id="left-label">Left</p>
+			
+			<p id="right-label">Right</p>
 		</div>
 
 
-</div>
+	</div>
 	
-		<div id="intCont-2">
-		<p style={{paddingLeft:"40%"}}>HEALTH</p>
-			{life>=50?<ProgressBar variant="info" id="prog" animated now = {life}/>:life < 50 && life >=20?
-			 <ProgressBar variant="warning" id="prog" animated now = {life}/>: 
-			 <ProgressBar variant="danger" id="prog" animated now = {life}/> }
-		</div>
+
 
 
 	</div>
