@@ -53,13 +53,7 @@ color:white;
   width:1024px
 }
 
-@media only screen  and (min-width:428px ){
-  .canvas-container{
-    left:0%;
-    width:400px;
-    height: 300px;
-  }
-}
+
 
 
 
@@ -199,7 +193,13 @@ color:white;
 
 
 
-
+            @media only screen  and (max-width:428px ){
+              .canvas-container{
+                left:0%;
+                width:400px;
+                height: 250px;
+              }
+            }
 
 
 
