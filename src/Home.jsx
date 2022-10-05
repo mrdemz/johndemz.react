@@ -4,13 +4,8 @@ import "./home.css"
 
 import Interactive from "./Interactive"
 import bg_img from "./images/bg_img.png"
-
+<meta content="width=device-width, initial-scale=1" name="viewport" />
 export default function Home()  {
-
-
-
-
-
 
 
 let [isTriggered, setTriggered] = useState(false)
@@ -71,7 +66,7 @@ function handleText()	{
 			<h1 id = "intr10">e</h1>
 			<h1 id = "intr11">m</h1>
 			<h1 id = "intr11">z</h1>
-			<p id = "intr12" style = {{ color: "dimgray"}}>Computer Scientist | Web Developer | Aeronautical Engineer</p>
+			<p id = "intr12" style = {{ color: "dimgray"}}>Computer Scientist  | Web Developer  | Aeronautical Engineer</p>
 			</div>
 			</div>
 			}

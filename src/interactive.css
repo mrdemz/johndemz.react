@@ -42,9 +42,24 @@ color:white;
 
 
 
+.canvas-container{
+  position: relative;
+  border-style:solid;
+  border-color:grey;
+  border-radius:1px;
+  left:30%; 
+  margin-top:10%; 
+  height:500px; 
+  width:1024px
+}
 
-
-
+@media only screen  and (min-width:428px ){
+  .canvas-container{
+    left:0%;
+    width:400px;
+    height: 300px;
+  }
+}
 
 
 

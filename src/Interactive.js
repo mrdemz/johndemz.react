@@ -783,9 +783,7 @@ return(
 
 
 	
-	<canvas id="canv" className="canvas-container" 
-	style= {{position: "relative",  border:"solid", borderColor:"grey", borderRadius:"20px", 
-	left:"30%", marginTop:"10%", height:"500px", width:"1024px"}} ref={canvasRef}></canvas>
+	<canvas id="canv" className="canvas-container"  ref={canvasRef}></canvas>
 	
 	<div id="intCont-2">
 		<p style={{paddingLeft:"40%"}}>HEALTH</p>

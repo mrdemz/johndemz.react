@@ -9,9 +9,17 @@ position:relative;
 
 #nav-logo{
     position:relative;
-    right:10%;
     max-height:50px
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,4 +75,66 @@ li {
             max-width: 150px;
             
             transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
+        }
+
+
+    
+
+
+        @media only screen and (min-width:428px){
+
+                        
+            li {
+                position: relative;
+                overflow: hidden;
+                background: #ddd;
+                list-style: none;
+                white-space:nowrap;
+                margin-right: 10px;
+                display: inline-block;
+            }
+                li .a {
+                    
+                    opacity: 0;
+                    color: #666;
+                    max-width: 0;
+                    display: inline-block;
+                    text-decoration: none;
+                    transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
+                    
+                }
+                    li .a:hover {
+                    
+                        color: #0D6EFD;
+                    }
+                    li .a i {
+                        position:relative;
+                        float:right;
+                        display: block;
+                        padding-right: 1em;
+                        padding-left: .125em;
+                        font:.5em/1 'Helvetica Neue', sans-serif;
+                        bottom:5px;
+                        left:20px;
+                        height:10px;
+                    }
+                li b {
+                
+                    color: #4494DB;
+                    display: inline-block;
+                    padding:.125em .375em;
+                    background-color: #212529;
+                    font-size: 1em;
+                
+
+                }
+            
+                    li:hover .a {
+                    
+                        opacity: 1;
+                        max-width: 150px;
+                        transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
+                    }
+            
+   
         }
