@@ -25,9 +25,9 @@ export default function About() {
   return (
     <>
           
-	<div  >
+	
 		
-			<div className='main-cont' >
+			<div className='abtmain-cont' >
 				<h1>About me</h1>
 				
 			<ul className='ab-ul' >
@@ -75,14 +75,9 @@ export default function About() {
 			<Dropdown.Item >Cars</Dropdown.Item>
 			</DropdownButton>
 			</div>
-		
-			<div></div>
-
-
-
 
 			</div>
-
+<div className='holygrail'>
 			<div  className='cont-1'>
 
 					<img  id = "timeline" src={timeline} />
@@ -99,6 +94,7 @@ export default function About() {
 						</div>
 			</div>
 				<div id="exMain-1">
+					
 					<div  id="ex-cont1"><div id="extr-1"><p id="extr-p"  style = {slide?mountedStyle1:unmountedStyle}>Final Fantasy V</p></div></div>
 					<div  id="ex-cont2"><div id="extr-1"><p id="extr-p" style = {slide?mountedStyle2:unmountedStyle}>Final Fantasy VI</p></div></div>
 					<div  id="ex-cont3"><div id="extr-1"><p id="extr-p" style = {slide?mountedStyle3:unmountedStyle}>Final Fantasy VII</p></div></div>
@@ -130,13 +126,14 @@ export default function About() {
 					<div  id="ex-cont29"><div id="extr-1"><p id="extr-p" style = {slide?mountedStyle29:unmountedStyle}>FF7 Crisis Core</p></div></div>
 					<div  id="ex-cont30"><div id="extr-1"><p id="extr-p" style = {slide?mountedStyle30:unmountedStyle}>DOTA</p></div></div>
 					<div  id="ex-cont31"><div id="extr-1"><p id="extr-p" style = {slide?mountedStyle31:unmountedStyle}>SEA MMO's</p></div></div>
+					
 				</div>
 
 				
-			
+</div>			
 
 
-	</div>
+	
 		
 	<RatingModal
 	show={modalShow}
