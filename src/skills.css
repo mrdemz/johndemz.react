@@ -1,10 +1,30 @@
-.main-cont{
- position:absolute;   
- left:300px;
- top:250px;
+.skillsMain-cont{
+ position:relative;   
+ left:15%;
  max-width:650px;
  user-select:none;
+
+ margin-bottom: 5%;
+
  }
+
+ .sk-sec-cont{
+
+max-width:650px;
+height:550px;
+display:inline-block;
+position:relative; 
+margin-left:15%;
+vertical-align:top;
+overflow:hidden; 
+border-radius: 15px;
+border-style:solid;
+border-color:white;
+ }
+
+
+
+
  p{
     font:1.2em/1 'Helvetica Neue', sans-serif;
     color:white;
@@ -16,6 +36,10 @@
    margin-left: 50px;
    margin-top: 50px;
  }
+ .skills-caption:hover{
+  font-size: 3.5em;
+  color:white
+ }
  .secSkills-caption{
    font-size: 1.5em;
    display: inline-block;
@@ -23,4 +47,189 @@
    margin-top: 5px;
 
  }
+ #skill-dat{
+position:relative;
+display:block;
+width:650px;
+height:600px;
+
+ }
+
+
+ @media only screen and (max-width:428px){
+  .skillsMain-cont{
+    position:relative;   
+    left:10%;
+    max-width:320px;
+    user-select:none;
+   
+    margin-bottom: 5%;
+   
+    }
+   
+    .sk-sec-cont{
+   
+   max-width:320px;
+   height:550px;
+   display:inline-block;
+   position:relative; 
+   margin-left:5%;
+   vertical-align:top;
+   overflow:hidden; 
+   border-radius: 15px;
+   border-style:solid;
+   border-color:white;
+    }
+  
+  .skills-caption{
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+  .skills-caption:hover{
+   font-size: 2em;
+   color:white
+  }
+  .secSkills-caption{
+    font-size: 0.6em;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+ 
+  }
+  #skill-dat{
+    position:relative;
+    display:block;
+    width:300px;
+    height:400px;
     
+     }
+}
+
+
+
+@media only screen and (max-width:375px){
+  .skillsMain-cont{
+    position:relative;   
+    left:10%;
+    max-width:300px;
+    user-select:none;
+   
+    margin-bottom: 5%;
+   
+    }
+   
+    .sk-sec-cont{
+   
+   max-width:300px;
+   height:550px;
+   display:inline-block;
+   position:relative; 
+   margin-left:5%;
+   vertical-align:top;
+   overflow:hidden; 
+   border-radius: 15px;
+   border-style:solid;
+   border-color:white;
+    }
+  
+  .skills-caption{
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+  .skills-caption:hover{
+   font-size: 2em;
+   color:white
+  }
+  .secSkills-caption{
+    font-size: 0.6em;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+ 
+  }
+  #skill-dat{
+    position:relative;
+    display:block;
+    width:300px;
+    height:400px;
+    
+     }
+}
+
+@media only screen and (max-width:360px){
+  .skillsMain-cont{
+    position:relative;   
+    left:10%;
+    max-width:300px;
+    user-select:none;
+   
+    margin-bottom: 5%;
+   
+    }
+   
+    .sk-sec-cont{
+   
+   max-width:300px;
+   height:550px;
+   display:inline-block;
+   position:relative; 
+   margin-left:5%;
+   vertical-align:top;
+   overflow:hidden; 
+   border-radius: 15px;
+   border-style:solid;
+   border-color:white;
+    }
+  
+  .skills-caption{
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+  .skills-caption:hover{
+   font-size: 2em;
+   color:white
+  }
+  .secSkills-caption{
+    font-size: 0.6em;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+ 
+  }
+  #skill-dat{
+    position:relative;
+    display:block;
+    width:300px;
+    height:400px;
+    
+     }
+}
+    
+
+ @keyframes scroll {
+  0% {
+    top: 0;
+  }
+  100% {
+   top: -1200px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;} 
+} 

@@ -66,7 +66,7 @@ function handleText()	{
 			<h1 id = "intr10">e</h1>
 			<h1 id = "intr11">m</h1>
 			<h1 id = "intr11">z</h1>
-			<p id = "intr12" style = {{ color: "dimgray"}}>Computer Scientist  | Web Developer  | Aeronautical Engineer</p>
+			<p id = "intr12" style = {{ color: "dimgray"}}>τέχνη | δημιουργικότητα | ΜΟΥΣΙΚΗ</p>
 			</div>
 			</div>
 			}
