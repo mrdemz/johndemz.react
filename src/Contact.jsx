@@ -1,17 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./contact.css"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGoogle, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
+
+import ChatSupport from './ChatSupport'
 const gooIc = <FontAwesomeIcon icon={faGoogle} />
 const gitIc = <FontAwesomeIcon icon={faGithub} />
 const linIc = <FontAwesomeIcon icon={faLinkedin} />
 
 export default function Contact() {
 
-
-  
     
     
   return (
@@ -19,7 +19,8 @@ export default function Contact() {
 
 
     <>
-    <div className='main-cont' >
+    
+    <div className='cont-main-cont' >
 			<h1>Contact Me</h1>
 				<h3><br/>Email Address:<br/>           
               {gooIc}
@@ -36,9 +37,11 @@ export default function Contact() {
                 
                 </div>
 
-
-
-
+   
+<ChatSupport
+  
+/>
+  
 </>
 
   )

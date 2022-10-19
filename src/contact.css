@@ -18,3 +18,30 @@ background-color: #EA4335;
 #linkedin{
 background-color: #0077B5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.transition-3 {
+
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+}
+
+.transition-5 {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+
