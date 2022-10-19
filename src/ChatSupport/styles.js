@@ -1,3 +1,4 @@
+import { faBlackTie } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -21,8 +22,8 @@ export const styles = {
     avatarHello: { 
         // Position
         position: 'absolute', 
-        left: 'calc(-100% - 120px - 28px)', 
-        top: 'calc(50% - 24px)', 
+        left: 'calc(-100% - 90px - 28px)', 
+        top: 'calc(50% - 40px)', 
         // Layering
         zIndex: '10000',
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
@@ -43,13 +44,14 @@ export const styles = {
         height: '530px',
         maxWidth: 'calc(100% - 48px)',
         maxHeight: 'calc(100% - 48px)',
-        backgroundColor: '#292b2c',
+        
         // Border
         borderRadius: '12px',
         border: `2px solid #7a39e0`,
         overflow: 'hidden',
         // Shadow
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
+        backgroundColor: '#292b2c',
     },
     emailFormWindow: { 
         width: '100%',  
@@ -70,8 +72,8 @@ export const styles = {
         position: 'relative',
         width: '100%', 
         top: '15%', 
-        color: 'white', 
-        fontSize: '24px', 
+        color: '#7a39e0', 
+        fontSize: '26px', 
         fontWeight: '600',
     },
     emailInput: { 
@@ -88,7 +90,7 @@ export const styles = {
         position: 'absolute', 
         width: '100%', 
         top: '60%', 
-        color: '#7a39e0', 
+        color: 'white', 
         fontSize: '24px', 
         fontWeight: '600' 
     },
@@ -108,6 +110,7 @@ export const styles = {
     },
     chatEngineWindow: {
         width: '100%',  
-        backgroundColor: '#fff',
+        backgroundColor: '#292b2c',
+        
     }
 }

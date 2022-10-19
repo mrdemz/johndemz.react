@@ -14,6 +14,7 @@ import Project from "./Project";
 import About from "./About"
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Chat from "./Chat";
 function NaviBar() {
 
  
@@ -52,6 +53,7 @@ function NaviBar() {
         <Route   path="skills" element={<Skills/>}> </Route>
         <Route   path="contact" element={<Contact/>}> </Route>
         <Route  path="projects" element={<Project/>}> </Route>
+        <Route  path="johndemz-developer" element={<Chat/>}> </Route>
       </Routes>
     </HashRouter>
 

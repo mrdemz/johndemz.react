@@ -37,7 +37,17 @@ export default function Contact() {
                 
                 </div>
 
-   
+<div 
+id="msg-me"
+style={{
+  position:'fixed', 
+  color:'white', 
+  fontSize:'1.5em', 
+  right:'125px', 
+  bottom:'20px'
+  }}>
+    MessageMe Now..👉
+    </div>   
 <ChatSupport
   
 />

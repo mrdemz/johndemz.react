@@ -97,7 +97,11 @@ const MessageForm = props =>{
                 }
             }}/>
 
-            <div style= {{position:'absolute', height:'100%', width:'100%', textAlign:'center'}}>
+            <div style= {{
+                position:'absolute', 
+                height:'100%', 
+                width:'100%', 
+                textAlign:'center'}}>
         
 
                 <div style = {styles.topText}>
@@ -125,7 +129,18 @@ const MessageForm = props =>{
 
 
 
-
+            <div 
+            
+            
+            style={{
+                
+                position:'absolute', 
+                color:'white', 
+                fontSize:'0.7em', 
+                marginLeft:'10px', 
+                bottom:'10px'}}>
+                    Powered by ChatEngine
+                </div>
 
 
             </div>
