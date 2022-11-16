@@ -27,6 +27,7 @@ const ChatWindow = props =>{
                 visible = {user !== null && chat !== null}
                 chat = {chat}
                 user = {user}
+                
             />
             
 
